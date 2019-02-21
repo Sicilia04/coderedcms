@@ -1,0 +1,1598 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CoderedCMS 0.12.1\n"
+"POT-Creation-Date: 2019-02-21 18:29+0100\n"
+"PO-Revision-Date: 2019-02-21 21:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: Florian Alu <florian.alu@grapps.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: blocks/__init__.py:23 blocks/__init__.py:49 blocks/__init__.py:58
+#: blocks/__init__.py:64
+msgid "HTML"
+msgstr "HTML"
+
+#: blocks/base_blocks.py:55
+msgid "Button Title"
+msgstr "Titre du bouton"
+
+#: blocks/base_blocks.py:61
+msgid "Button Style"
+msgstr "Style de bouton"
+
+#: blocks/base_blocks.py:67 models/page_models.py:999
+msgid "Button Size"
+msgstr "Taille du bouton"
+
+#: blocks/base_blocks.py:82 models/snippet_models.py:144
+#: models/snippet_models.py:187
+msgid "Custom CSS Class"
+msgstr "Classe CSS personnalisée"
+
+#: blocks/base_blocks.py:87 models/snippet_models.py:110
+#: models/snippet_models.py:149 models/snippet_models.py:192
+msgid "Custom ID"
+msgstr "ID personnalisé"
+
+#: blocks/base_blocks.py:92
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: blocks/base_blocks.py:105 models/page_models.py:182
+msgid "Template"
+msgstr "Modèle"
+
+#: blocks/base_blocks.py:119
+msgid "Tracking Event Category"
+msgstr "Catégorie d'événement de suivi"
+
+#: blocks/base_blocks.py:124
+msgid "Tracking Event Label"
+msgstr "Étiquette d'événement de suivi"
+
+#: blocks/base_blocks.py:136
+msgid "Column Breakpoint"
+msgstr "Point d'arrêt de colonne"
+
+#: blocks/base_blocks.py:137
+msgid ""
+"Screen size at which the column will expand horizontally or stack vertically."
+msgstr ""
+"Taille de l'écran à laquelle la colonne va se développer horizontalement ou "
+"empiler verticalement."
+
+#: blocks/base_blocks.py:194 models/snippet_models.py:196
+#: models/snippet_models.py:255
+msgid "Content"
+msgstr "Contenu"
+
+#: blocks/base_blocks.py:221
+msgid "Page link"
+msgstr "Lien de page"
+
+#: blocks/base_blocks.py:225 blocks/html_blocks.py:37
+msgid "Document link"
+msgstr "Lien de document"
+
+#: blocks/base_blocks.py:230
+msgid "Other link"
+msgstr "Autre lien"
+
+#: blocks/content_blocks.py:24 blocks/content_blocks.py:116
+#: blocks/content_blocks.py:255 blocks/html_blocks.py:152
+#: blocks/html_blocks.py:158 blocks/html_blocks.py:166
+#: models/snippet_models.py:94
+msgid "Image"
+msgstr "Image"
+
+#: blocks/content_blocks.py:29
+msgid "Title"
+msgstr "Titre"
+
+#: blocks/content_blocks.py:34
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: blocks/content_blocks.py:38 models/snippet_models.py:297
+msgid "Body"
+msgstr "Corps"
+
+#: blocks/content_blocks.py:44
+msgid "Links"
+msgstr "Liens"
+
+#: blocks/content_blocks.py:50
+msgid "Card"
+msgstr "Carte"
+
+#: blocks/content_blocks.py:61 models/snippet_models.py:31
+#: models/snippet_models.py:86
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: blocks/content_blocks.py:71
+msgid "Image Collection"
+msgstr "Collection d'images"
+
+#: blocks/content_blocks.py:77
+msgid "Image Gallery"
+msgstr "Galerie d'images"
+
+#: blocks/content_blocks.py:87
+msgid "Modal heading"
+msgstr "Titre du Modal"
+
+#: blocks/content_blocks.py:91
+msgid "Modal content"
+msgstr "Contenu du Modal"
+
+#: blocks/content_blocks.py:95
+msgid "Simple Text"
+msgstr "Texte simple"
+
+#: blocks/content_blocks.py:99
+msgid "Modal footer"
+msgstr "Pied du Modal"
+
+#: blocks/content_blocks.py:105
+msgid "Modal"
+msgstr "Modal"
+
+#: blocks/content_blocks.py:112
+msgid "Display text"
+msgstr "Display text"
+
+#: blocks/content_blocks.py:126 blocks/html_blocks.py:83 forms.py:25
+msgid "URL"
+msgstr "URL"
+
+#: blocks/content_blocks.py:131
+msgid "External Link"
+msgstr "Lien externe"
+
+#: blocks/content_blocks.py:139
+msgid "Page"
+msgstr "Page"
+
+#: blocks/content_blocks.py:144
+msgid "Page Link"
+msgstr "Lien de page"
+
+#: blocks/content_blocks.py:152
+msgid "Document"
+msgstr "Document"
+
+#: blocks/content_blocks.py:157
+msgid "Document Link"
+msgstr "Lien de document"
+
+#: blocks/content_blocks.py:171
+msgid "Sub-links"
+msgstr "Sous-liens"
+
+#: blocks/content_blocks.py:180
+msgid "External link with sub-links"
+msgstr "Lien externe avec des sous-liens"
+
+#: blocks/content_blocks.py:190
+msgid "Show child pages"
+msgstr "Afficher les pages enfants"
+
+#: blocks/content_blocks.py:191
+msgid "Automatically show a link to the Page’s child pages as a dropdown menu."
+msgstr ""
+"Affiche automatiquement un lien vers les pages enfants de la page en tant "
+"que menu déroulant."
+
+#: blocks/content_blocks.py:195
+msgid "Page link with sub-links"
+msgstr "Lien de page avec des sous-liens"
+
+#: blocks/content_blocks.py:203
+msgid "Document link with sub-links"
+msgstr "Lien de document avec des sous-liens"
+
+#: blocks/content_blocks.py:213
+msgid "Show body preview"
+msgstr "Afficher l'aperçu du corps"
+
+#: blocks/content_blocks.py:217
+msgid "Number of pages to show"
+msgstr "Nombre de pages à afficher"
+
+#: blocks/content_blocks.py:221
+msgid "Limit to"
+msgstr "Limite à"
+
+#: blocks/content_blocks.py:222
+msgid ""
+"Only show pages that are children of the selected page. Uses the subpage "
+"sorting as specified in the page’s LAYOUT tab."
+msgstr ""
+"Afficher uniquement les pages qui sont des enfants de la page sélectionnée. "
+"Utilise le tri de la sous-page comme spécifié dans l'onglet disposition de "
+"la page."
+
+#: blocks/content_blocks.py:228
+msgid "Latest Pages"
+msgstr "Dernières pages"
+
+#: blocks/content_blocks.py:260 models/snippet_models.py:35
+#: models/snippet_models.py:139 models/snippet_models.py:182
+#: models/snippet_models.py:225 models/snippet_models.py:251
+msgid "Name"
+msgstr "Nom"
+
+#: blocks/content_blocks.py:265
+msgid "Description"
+msgstr "Description"
+
+#: blocks/content_blocks.py:269
+msgid "Price"
+msgstr "Prix"
+
+#: blocks/content_blocks.py:270
+msgid "Any text here. Include currency sign if desired."
+msgstr "N'importe quel texte ici. Incluez le signe de devise si désiré."
+
+#: blocks/content_blocks.py:276
+msgid "Price List Item"
+msgstr "Article de la liste de prix"
+
+#: blocks/content_blocks.py:286
+msgid "Heading"
+msgstr "Titre"
+
+#: blocks/content_blocks.py:292
+msgid "Items"
+msgstr "Articles"
+
+#: blocks/content_blocks.py:298
+msgid "Price List"
+msgstr "Liste des prix"
+
+#: blocks/content_blocks.py:309
+msgid "Show content walls on children pages?"
+msgstr "Afficher les murs de contenu sur les pages enfants?"
+
+#: blocks/content_blocks.py:310
+msgid ""
+"If this is checked, the content walls will be displayed on all children "
+"pages of this page."
+msgstr ""
+"Si cette vérification est cochée, les murs de contenu seront affichés sur "
+"toutes les pages enfants de cette page."
+
+#: blocks/content_blocks.py:314 models/snippet_models.py:247
+#: models/snippet_models.py:274
+msgid "Content Wall"
+msgstr "Mur de contenu"
+
+#: blocks/content_blocks.py:326 models/snippet_models.py:220
+#: models/snippet_models.py:221
+msgid "Reusable Content"
+msgstr "Contenu réutilisable"
+
+#: blocks/html_blocks.py:23
+msgid "Button Link"
+msgstr "Lien du bouton"
+
+#: blocks/html_blocks.py:33
+msgid "Auto download"
+msgstr "Téléchargement automatique"
+
+#: blocks/html_blocks.py:45
+msgid "Download"
+msgstr "Télécharger"
+
+#: blocks/html_blocks.py:55
+msgid "Search query"
+msgstr "Requête de recherche"
+
+#: blocks/html_blocks.py:56
+msgid "Address or search term used to find your location on the map."
+msgstr ""
+"Adresse ou terme de recherche utilisé pour trouver votre position sur la "
+"carte."
+
+#: blocks/html_blocks.py:61
+msgid "Google place ID"
+msgstr "ID de place Google"
+
+#: blocks/html_blocks.py:62
+msgid "Requires API key to use place ID."
+msgstr "Nécessite une clé API pour utiliser l'ID de place."
+
+#: blocks/html_blocks.py:67
+msgid "Map zoom level"
+msgstr "Niveau de zoom de la carte"
+
+#: blocks/html_blocks.py:68 models/page_models.py:1476
+msgid ""
+"Requires API key to use zoom. 1: World, 5: Landmass/continent, 10: City, 15: "
+"Streets, 20: Buildings"
+msgstr ""
+"Nécessite une clé API pour utiliser le zoom. 1: monde, 5: Landmass/"
+"continent, 10: ville, 15: rues, 20: bâtiments"
+
+#: blocks/html_blocks.py:74
+msgid "Google Map"
+msgstr "Google Map"
+
+#: blocks/html_blocks.py:84
+msgid "Link to a YouTube/Vimeo video, tweet, facebook post, etc."
+msgstr "Lien vers une vidéo YouTube/Vimeo, Tweet, Facebook post, etc."
+
+#: blocks/html_blocks.py:90
+msgid "Embed Media"
+msgstr "Incorporer les médias"
+
+#: blocks/html_blocks.py:99 blocks/html_blocks.py:114 blocks/html_blocks.py:129
+#: forms.py:20
+msgid "Text"
+msgstr "Texte"
+
+#: blocks/html_blocks.py:105
+msgid "Heading 1"
+msgstr "Titre 1"
+
+#: blocks/html_blocks.py:120
+msgid "Heading 2"
+msgstr "Titre 2"
+
+#: blocks/html_blocks.py:135
+msgid "Heading 3"
+msgstr "Titre 3"
+
+#: blocks/html_blocks.py:171
+msgid "Alternate text to show if the image doesn’t load"
+msgstr "Texte alternatif pour afficher si l'image ne se charge pas"
+
+#: blocks/html_blocks.py:177
+msgid "Image Link"
+msgstr "Lien image"
+
+#: blocks/html_blocks.py:188
+msgid "Quote Text"
+msgstr "Texte de la citation"
+
+#: blocks/html_blocks.py:193 models/page_models.py:621
+msgid "Author"
+msgstr "Auteur"
+
+#: blocks/html_blocks.py:199
+msgid "Quote"
+msgstr "Citation"
+
+#: blocks/layout_blocks.py:26
+msgid "Column size"
+msgstr "Taille de colonne"
+
+#: blocks/layout_blocks.py:43 blocks/layout_blocks.py:64
+#: blocks/layout_blocks.py:81
+msgid "Full width"
+msgstr "Pleine largeur"
+
+#: blocks/layout_blocks.py:49
+msgid "Responsive Grid Row"
+msgstr "Rangée de grille réactive"
+
+#: blocks/layout_blocks.py:70
+msgid "Card Grid"
+msgstr "Grille de carte"
+
+#: blocks/layout_blocks.py:85
+msgid "Parallax Effect"
+msgstr "Effet parallaxe"
+
+#: blocks/layout_blocks.py:86
+msgid ""
+"Background images scroll slower than foreground images, creating an illusion "
+"of depth."
+msgstr ""
+"Les images de fond défilent plus lentement que les images de premier plan, "
+"créant une illusion de profondeur."
+
+#: blocks/layout_blocks.py:92
+msgid "Tile background image"
+msgstr "Image de fond de tuile"
+
+#: blocks/layout_blocks.py:97 models/snippet_models.py:99
+msgid "Background color"
+msgstr "Couleur d'arrière-plan"
+
+#: blocks/layout_blocks.py:98 blocks/layout_blocks.py:104
+#: models/snippet_models.py:100
+msgid "Hexadecimal, rgba, or CSS color notation (e.g. #ff0011)"
+msgstr "Notation de couleur hexadécimale, RGBA ou CSS (par exemple #ff0011)"
+
+#: blocks/layout_blocks.py:103
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: blocks/metadata_blocks.py:32
+msgid "Days"
+msgstr "Jours"
+
+#: blocks/metadata_blocks.py:33
+msgid "For late night hours past 23:59, define each day in a separate block."
+msgstr ""
+"Pour les heures de fin de nuit passées 23:59, définissez chaque jour dans un "
+"bloc distinct."
+
+#: blocks/metadata_blocks.py:36
+msgid "Monday"
+msgstr "Lundi"
+
+#: blocks/metadata_blocks.py:37
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: blocks/metadata_blocks.py:38
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: blocks/metadata_blocks.py:39
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: blocks/metadata_blocks.py:40
+msgid "Friday"
+msgstr "Vendredi"
+
+#: blocks/metadata_blocks.py:41
+msgid "Saturday"
+msgstr "Samedi"
+
+#: blocks/metadata_blocks.py:42
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: blocks/metadata_blocks.py:44
+msgid "Opening time"
+msgstr "Horaire d'ouverture"
+
+#: blocks/metadata_blocks.py:45
+msgid "Closing time"
+msgstr "Heure de fermeture"
+
+#: blocks/metadata_blocks.py:49
+msgid "Open Hours"
+msgstr "Heures d'ouverture"
+
+#: blocks/metadata_blocks.py:58
+msgid "Action Type"
+msgstr "Type d’action"
+
+#: blocks/metadata_blocks.py:62
+msgid "Target URL"
+msgstr "URL cible"
+
+#: blocks/metadata_blocks.py:64
+msgid "Language"
+msgstr "Langue"
+
+#: blocks/metadata_blocks.py:65
+msgid ""
+"If the action is offered in multiple languages, create separate actions for "
+"each language."
+msgstr ""
+"Si l'action est disponible en plusieurs langues, créez des actions "
+"distinctes pour chaque langue."
+
+#: blocks/metadata_blocks.py:70
+msgid "Result Type"
+msgstr "Type de résultat"
+
+#: blocks/metadata_blocks.py:71
+msgid "Leave blank for OrderAction"
+msgstr "Laisser vide pour OrderAction"
+
+#: blocks/metadata_blocks.py:76
+msgid "Result Name"
+msgstr "Nom du résultat"
+
+#: blocks/metadata_blocks.py:77
+msgid "Example: \"Reserve a table\", \"Book an appointment\", etc."
+msgstr "Exemple: «réserver une table», «réserver un rendez-vous», etc."
+
+#: blocks/metadata_blocks.py:81
+msgid "Additional action markup"
+msgstr "Balisage d'action supplémentaire"
+
+#: blocks/metadata_blocks.py:83
+msgid ""
+"Additional JSON-LD inserted into the Action dictionary. Must be properties "
+"of https://schema.org/Action."
+msgstr ""
+"JSON-LD supplémentaire inséré dans le dictionnaire action. Doit être des "
+"propriétés de https://schema.org/Action."
+
+#: blocks/metadata_blocks.py:88
+msgid "Action"
+msgstr "Action"
+
+#: forms.py:21
+msgid "Single line text"
+msgstr "Texte sur une seule ligne"
+
+#: forms.py:22
+msgid "Multi-line text"
+msgstr "Texte multiligne"
+
+#: forms.py:23 models/wagtailsettings_models.py:303
+msgid "Email"
+msgstr "Email"
+
+#: forms.py:24
+msgid "Number - only allows integers"
+msgstr "Nombre - autorise seulement les entiers"
+
+#: forms.py:27
+msgid "Choice"
+msgstr "Choix"
+
+#: forms.py:28
+msgid "Checkboxes"
+msgstr "Cases"
+
+#: forms.py:29
+msgid "Drop down"
+msgstr "Liste déroulante"
+
+#: forms.py:30
+msgid "Radio buttons"
+msgstr "Boutons radio"
+
+#: forms.py:31
+msgid "Multiple select"
+msgstr "Sélection multiple"
+
+#: forms.py:32
+msgid "Single checkbox"
+msgstr "Case simple"
+
+#: forms.py:34
+msgid "Date & Time"
+msgstr "Date & heure"
+
+#: forms.py:35
+msgid "Date"
+msgstr "Date"
+
+#: forms.py:36
+msgid "Time"
+msgstr "Temps"
+
+#: forms.py:37
+msgid "Date and time"
+msgstr "Date et heure"
+
+#: forms.py:39
+msgid "File Upload"
+msgstr "Envoi de fichiers"
+
+#: forms.py:40
+msgid "Secure File - login required to access uploaded files"
+msgstr ""
+"Fichier sécurisé - connexion requise pour accéder aux fichiers téléchargés"
+
+#: forms.py:42
+msgid "Other"
+msgstr "Autre"
+
+#: forms.py:43
+msgid "Hidden field"
+msgstr "Champ caché"
+
+#: forms.py:52 forms.py:53
+msgid "Submitted file is not allowed."
+msgstr "Le fichier soumis n'est pas autorisé."
+
+#: forms.py:146
+msgid "field type"
+msgstr "type de champ"
+
+#: forms.py:153
+msgid "Search"
+msgstr "Rechercher"
+
+#: forms.py:159
+msgid "Page type"
+msgstr "Type de page"
+
+#: models/integration_models.py:103
+msgid "List"
+msgstr "Liste"
+
+#: models/page_models.py:91
+msgid "CodeRed Tag"
+msgstr "Tag CodeRed"
+
+#: models/page_models.py:100
+msgid "CodeRed Page"
+msgstr "Page CodeRed"
+
+#: models/page_models.py:124
+msgid "Cover image"
+msgstr "Image de couverture"
+
+#: models/page_models.py:143
+msgid "Default Ordering"
+msgstr "Ordre par défaut"
+
+#: models/page_models.py:144
+msgid "Date first published, newest to oldest"
+msgstr "Date de première publication, du plus récent au plus ancien"
+
+#: models/page_models.py:145
+msgid "Date first published, oldest to newest"
+msgstr "Date de première publication, du plus ancien au plus récent"
+
+#: models/page_models.py:146
+msgid "Date updated, newest to oldest"
+msgstr "Date de mise à jour, la plus récente à la plus ancienne"
+
+#: models/page_models.py:147
+msgid "Date updated, oldest to newest"
+msgstr "Date de mise à jour, la plus ancienne à la plus récente"
+
+#: models/page_models.py:148
+msgid "Title, alphabetical"
+msgstr "Titre, alphabétique"
+
+#: models/page_models.py:149
+msgid "Title, reverse alphabetical"
+msgstr "Titre, alphabétique inversé"
+
+#: models/page_models.py:153
+msgid "Show list of child pages"
+msgstr "Afficher la liste des pages enfants"
+
+#: models/page_models.py:159
+msgid "Order child pages by"
+msgstr "Classer les pages enfants par"
+
+#: models/page_models.py:164
+msgid "Number per page"
+msgstr "Nombre par page"
+
+#: models/page_models.py:170
+msgid "Used to categorize your pages."
+msgstr "Utilisé pour catégoriser vos pages."
+
+#: models/page_models.py:196
+msgid "Open Graph preview image"
+msgstr "Image d'aperçu Open Graph"
+
+#: models/page_models.py:197
+msgid ""
+"The image shown when linking to this page on social media. If blank, "
+"defaults to article cover image, or logo in Settings > Layout > Logo"
+msgstr ""
+"L'image affichée lors de la liaison à cette page sur les médias sociaux. Si "
+"blanc, par défaut à l'image de couverture de l'article, ou le logo dans "
+"Paramètres > Disposition > logo"
+
+#: models/page_models.py:204
+msgid "Organization type"
+msgstr "Type d'organisation"
+
+#: models/page_models.py:205
+msgid "If blank, no structured data will be used on this page."
+msgstr ""
+"Si elle est vide, aucune donnée structurée ne sera utilisée sur cette page."
+
+#: models/page_models.py:211
+msgid "Organization name"
+msgstr "Nom de l'Organisation"
+
+#: models/page_models.py:212
+msgid "Leave blank to use the site name in Settings > Sites"
+msgstr "Laissez vide pour utiliser le nom du site dans Paramètres > Sites"
+
+#: models/page_models.py:220
+msgid "Organization logo"
+msgstr "Logo de l'Organisation"
+
+#: models/page_models.py:221
+msgid "Leave blank to use the logo in Settings > Layout > Logo"
+msgstr ""
+"Laissez vide pour utiliser le logo dans Paramètres > Disposition > Logo"
+
+#: models/page_models.py:229
+msgid "Photo of Organization"
+msgstr "Photo de l'Organisation"
+
+#: models/page_models.py:230
+msgid ""
+"A photo of the facility. This photo will be cropped to 1:1, 4:3, and 16:9 "
+"aspect ratios automatically."
+msgstr ""
+"Une photo de l'établissement. Cette photo sera recadrée à 1:1, 4:3 et 16:9 "
+"rapports d'aspect automatiquement."
+
+#: models/page_models.py:235
+msgid "Telephone number"
+msgstr "Numéro de téléphone"
+
+#: models/page_models.py:236
+msgid "Include country code for best results. For example: +1-216-555-8000"
+msgstr ""
+"Incluez le code de pays pour de meilleurs résultats. Par exemple: + "
+"1-216-555-8000"
+
+#: models/page_models.py:241
+msgid "Street address"
+msgstr "Adresse postale"
+
+#: models/page_models.py:242
+msgid "House number and street. For example, 55 Public Square Suite 1710"
+msgstr "Numéro de maison et rue. Par exemple, 55 Rue des Pommiers"
+
+#: models/page_models.py:247
+msgid "City"
+msgstr "Ville"
+
+#: models/page_models.py:248
+msgid "City or locality. For example, Cleveland"
+msgstr "Ville ou localité. Par exemple, Paris"
+
+#: models/page_models.py:253
+msgid "State"
+msgstr "État"
+
+#: models/page_models.py:254
+msgid "State, province, county, or region. For example, OH"
+msgstr "État, province, comté ou région. Par exemple, VS"
+
+#: models/page_models.py:259
+msgid "Postal code"
+msgstr "Code postal"
+
+#: models/page_models.py:260
+msgid "Zip or postal code. For example, 44113"
+msgstr "Nip ou code postal. Par exemple, 1200"
+
+#: models/page_models.py:265
+msgid "Country"
+msgstr "Pays"
+
+#: models/page_models.py:266
+msgid ""
+"For example, USA. Two-letter ISO 3166-1 alpha-2 country code is also "
+"acceptible https://en.wikipedia.org/wiki/ISO_3166-1"
+msgstr ""
+"Par exemple, USA. Le code de pays ISO 3166-1 alpha-2 à deux lettres est "
+"également acceptable https://en.wikipedia.org/wiki/ISO_3166-1"
+
+#: models/page_models.py:273
+msgid "Geographic latitude"
+msgstr "Latitude géographique"
+
+#: models/page_models.py:280
+msgid "Geographic longitude"
+msgstr "Longitude géographique"
+
+#: models/page_models.py:287
+msgid "Hours of operation"
+msgstr "Heures d'ouverture"
+
+#: models/page_models.py:294
+msgid "Actions"
+msgstr "Actions"
+
+#: models/page_models.py:298
+msgid "Additional Organization markup"
+msgstr "Balisage d'organisation supplémentaire"
+
+#: models/page_models.py:299
+msgid ""
+"Additional JSON-LD inserted into the Organization dictionary. Must be "
+"properties of https://schema.org/Organization or the selected organization "
+"type."
+msgstr ""
+"JSON-LD supplémentaire inséré dans le dictionnaire de l'organisation. Doit "
+"être des propriétés de https://schema.org/Organization ou du type "
+"d'organisation sélectionné."
+
+#: models/page_models.py:312
+msgid "Content Walls"
+msgstr "Murs de contenu"
+
+#: models/page_models.py:358
+msgid "Visual Design"
+msgstr "Conception visuelle"
+
+#: models/page_models.py:366
+msgid "Show Child Pages"
+msgstr "Afficher les pages enfants"
+
+#: models/page_models.py:378
+msgid "Page Meta Data"
+msgstr "Méta-données de la page"
+
+#: models/page_models.py:383
+msgid "About Organization Structured Data"
+msgstr "À propos des données structurées de l'Organisation"
+
+#: models/page_models.py:384
+msgid ""
+"The fields below help define brand, contact, and storefront\n"
+"                    information to search engines. This information should "
+"be filled out on\n"
+"                    the site’s root page (Home Page). If your organization "
+"has multiple locations,\n"
+"                    then also fill this info out on each location page using "
+"that particular\n"
+"                    location’s info."
+msgstr ""
+"Les champs ci-dessous aident à définir la marque, le contact et la vitrine\n"
+"                    informations aux moteurs de recherche. Ces informations "
+"doivent être remplies sur\n"
+"                    la page racine du site (page d'accueil). Si votre "
+"organisation a plusieurs emplacements,\n"
+"                    puis remplissez également cette info sur chaque page "
+"d'emplacement en utilisant ce particulier\n"
+"                    informations de l'emplacement."
+
+#: models/page_models.py:406
+msgid "Structured Data - Organization"
+msgstr "Données structurées - Organisation"
+
+#: models/page_models.py:551
+msgid "CodeRed Web Page"
+msgstr "Page Web CodeRed"
+
+#: models/page_models.py:601
+msgid "CodeRed Article"
+msgstr "Article CodeRed"
+
+#: models/page_models.py:613
+msgid "Caption"
+msgstr "Légende"
+
+#: models/page_models.py:626
+msgid "Display author as"
+msgstr "Afficher l'auteur comme"
+
+#: models/page_models.py:627
+msgid "Override how the author’s name displays on this article."
+msgstr "Substituez la façon dont le nom de l'auteur s'affiche sur cet article."
+
+#: models/page_models.py:632
+msgid "Display publish date"
+msgstr "Afficher la date de publication"
+
+#: models/page_models.py:683
+msgid "Publication Info"
+msgstr "Informations sur la publication"
+
+#: models/page_models.py:693
+msgid "CodeRed Article Index Page"
+msgstr "Page d'index d'article CodeRed"
+
+#: models/page_models.py:706
+msgid "Show images"
+msgstr "Afficher les images"
+
+#: models/page_models.py:713
+msgid "Show author and date info"
+msgstr "Afficher les informations sur l'auteur et la date"
+
+#: models/page_models.py:717
+msgid "Show preview text"
+msgstr "Afficher le texte de l'aperçu"
+
+#: models/page_models.py:728
+msgid "Child page display"
+msgstr "Affichage de la page enfant"
+
+#: models/page_models.py:735
+msgid "CodeRed Event"
+msgstr "Événement CodeRed"
+
+#: models/page_models.py:740
+msgid "The color that the event will use when displayed on a calendar."
+msgstr ""
+"Couleur que l'événement utilisera lorsqu'il est affiché sur un calendrier."
+
+#: models/page_models.py:744 models/page_models.py:1322
+msgid "Address"
+msgstr "Adresse"
+
+#: models/page_models.py:752
+msgid "Event information"
+msgstr "Informations sur les événements"
+
+#: models/page_models.py:757
+msgid "Dates and times"
+msgstr "Dates et heures"
+
+#: models/page_models.py:858
+msgid "No calendar"
+msgstr "Pas de calendrier"
+
+#: models/page_models.py:859
+msgid "Monthly Calendar"
+msgstr "Calendrier mensuel"
+
+#: models/page_models.py:860
+msgid "Weekly Calendar"
+msgstr "Calendrier hebdomadaire"
+
+#: models/page_models.py:861
+msgid "Daily Calendar"
+msgstr "Calendrier journalier"
+
+#: models/page_models.py:862
+msgid "Calendar List View"
+msgstr "Vue liste du calendrier"
+
+#: models/page_models.py:870
+msgid "CodeRed Event Index Page"
+msgstr "Page d'index d'événement CodeRed"
+
+#: models/page_models.py:887
+msgid "Calendar Style"
+msgstr "Style de calendrier"
+
+#: models/page_models.py:888
+msgid "The default look of the calendar on this page."
+msgstr "L'apparence par défaut du calendrier sur cette page."
+
+#: models/page_models.py:933
+msgid "CodeRed Event Occurrence"
+msgstr "Occurrence d'événement CodeRed"
+
+#: models/page_models.py:943
+msgid "CodeRed Form Page"
+msgstr "Page de formulaire CodeRed"
+
+#: models/page_models.py:960
+msgid "Email form submissions to"
+msgstr "Envoi de formulaires par courriel à"
+
+#: models/page_models.py:961
+msgid ""
+"Optional - email form submissions to this address. Separate multiple "
+"addresses by comma."
+msgstr ""
+"Facultatif - envoyer les formulaire à cette adresse. Séparez plusieurs "
+"adresses par virgule."
+
+#: models/page_models.py:966 models/snippet_models.py:296
+msgid "Subject"
+msgstr "Sujet"
+
+#: models/page_models.py:970
+msgid "Save form submissions"
+msgstr "Enregistrer les dépôts de formulaire"
+
+#: models/page_models.py:971
+msgid "Submissions are saved to database and can be exported at any time."
+msgstr ""
+"Les dépots sont sauvegardées dans la base de données et peuvent être "
+"exportées à tout moment."
+
+#: models/page_models.py:979 models/page_models.py:1296
+msgid "Thank you page"
+msgstr "Page de remerciement"
+
+#: models/page_models.py:980
+msgid "The page users are redirected to after submitting the form."
+msgstr ""
+"Les utilisateurs de la page sont redirigés vers après avoir soumis le "
+"formulaire."
+
+#: models/page_models.py:984
+msgid "Submit"
+msgstr "Envoyer"
+
+#: models/page_models.py:985
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: models/page_models.py:992
+msgid "Button style"
+msgstr "Style de bouton"
+
+#: models/page_models.py:1004
+msgid "Button CSS class"
+msgstr "Classe CSS du bouton"
+
+#: models/page_models.py:1005
+msgid "Custom CSS class applied to the submit button."
+msgstr "Classe CSS personnalisée appliquée au bouton envoyer."
+
+#: models/page_models.py:1010
+msgid "Form CSS Class"
+msgstr "Classe CSS du formulaire"
+
+#: models/page_models.py:1011
+msgid "Custom CSS class applied to <form> element."
+msgstr "Classe CSS personnalisée appliquée à l'élément <form>."
+
+#: models/page_models.py:1016
+msgid "Form ID"
+msgstr "ID de formulaire"
+
+#: models/page_models.py:1017
+msgid "Custom ID applied to <form> element."
+msgstr "ID personnalisé appliqué à l'élément <form>."
+
+#: models/page_models.py:1022
+msgid "Form go live date/time"
+msgstr "Date/heure de mis en ligne du formulaire"
+
+#: models/page_models.py:1023
+msgid "Date and time when the FORM goes live on the page."
+msgstr "Date et heure de mise en ligne du formulaire sur la page."
+
+#: models/page_models.py:1028
+msgid "Form expiry date/time"
+msgstr "Date/heure d'expiration du formulaire"
+
+#: models/page_models.py:1029
+msgid "Date and time when the FORM will no longer be available on the page."
+msgstr ""
+"Date et heure auxquelles le FORMULAIRE ne sera plus disponible sur la page."
+
+#: models/page_models.py:1045
+msgid "Form Settings"
+msgstr "Paramètres du formulaire"
+
+#: models/page_models.py:1053
+msgid "Form Submissions"
+msgstr "Envoi de formulaires"
+
+#: models/page_models.py:1055
+msgid "Confirmation Emails"
+msgstr "E-mails de confirmation"
+
+#: models/page_models.py:1069
+msgid "Form Scheduled Publishing"
+msgstr "Formulaire de publication planifiée"
+
+#: models/page_models.py:1104
+msgid "Submission date"
+msgstr "Date de dépot"
+
+#: models/page_models.py:1295
+msgid "Form"
+msgstr "Formulaire"
+
+#: models/page_models.py:1312
+msgid "CodeRed Location"
+msgstr "Emplacement CodeRed"
+
+#: models/page_models.py:1327
+msgid "Latitude"
+msgstr "Latitude"
+
+#: models/page_models.py:1332
+msgid "Longitude"
+msgstr "Longitude"
+
+#: models/page_models.py:1336
+msgid "Auto Update Latitude and Longitude"
+msgstr "Mise à jour automatique de latitude et longitude"
+
+#: models/page_models.py:1337
+msgid ""
+"If checked, automatically update the latitude and longitude when the address "
+"is updated."
+msgstr ""
+"Si elle est cochée, mets automatiquement à jour la latitude et la longitude "
+"lorsque l'adresse est mise à jour."
+
+#: models/page_models.py:1342
+msgid "Map Title"
+msgstr "Titre de la carte"
+
+#: models/page_models.py:1343
+msgid "If this is filled out, this is the title that will be used on the map."
+msgstr "Si cela est rempli, c'est le titre qui sera utilisé sur la carte."
+
+#: models/page_models.py:1348
+msgid "Map Description"
+msgstr "Description de la carte"
+
+#: models/page_models.py:1349
+msgid ""
+"If this is filled out, this is the description that will be used on the map."
+msgstr ""
+"Si cela est rempli, c'est la description qui sera utilisée sur la carte."
+
+#: models/page_models.py:1353
+msgid "Website"
+msgstr "Site web"
+
+#: models/page_models.py:1358
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: models/page_models.py:1373
+msgid "Map Layout"
+msgstr "Mise en page de carte"
+
+#: models/page_models.py:1384
+msgid "Location Settings"
+msgstr "Paramètres d'emplacement"
+
+#: models/page_models.py:1451
+msgid "CodeRed Location Index Page"
+msgstr "Page index d'emplacement CodeRed"
+
+#: models/page_models.py:1461
+msgid "The default latitude you want the map set to."
+msgstr "Latitude par défaut à laquelle la carte doit être définie."
+
+#: models/page_models.py:1467
+msgid "The default longitude you want the map set to."
+msgstr "Longitude par défaut à laquelle la carte doit être définie."
+
+#: models/page_models.py:1486
+msgid "Map Display"
+msgstr "Affichage de la carte"
+
+#: models/snippet_models.py:39
+msgid "Show controls"
+msgstr "Afficher les commandes"
+
+#: models/snippet_models.py:40
+msgid ""
+"Shows arrows on the left and right of the carousel to advance next or "
+"previous slides."
+msgstr ""
+"Affiche les flèches à gauche et à droite du carrousel pour avancer les "
+"diapositives suivantes ou précédentes."
+
+#: models/snippet_models.py:44
+msgid "Show indicators"
+msgstr "Afficher les indicateurs"
+
+#: models/snippet_models.py:45
+msgid ""
+"Shows small indicators at the bottom of the carousel based on the number of "
+"slides."
+msgstr ""
+"Affiche les petits indicateurs au bas du carrousel en fonction du nombre de "
+"diapositives."
+
+#: models/snippet_models.py:52
+msgid "Animation"
+msgstr "Animation"
+
+#: models/snippet_models.py:53
+msgid "The animation when transitioning between slides."
+msgstr "L'animation lors de la transition entre les diapositives."
+
+#: models/snippet_models.py:59
+msgid "Slider"
+msgstr "Curseur"
+
+#: models/snippet_models.py:67
+msgid "Slides"
+msgstr "Diapositives"
+
+#: models/snippet_models.py:81
+msgid "Carousel Slide"
+msgstr "Diapositive carrousel"
+
+#: models/snippet_models.py:105
+msgid "Custom CSS class"
+msgstr "Classe CSS personnalisée"
+
+#: models/snippet_models.py:135
+msgid "Navigation Bar"
+msgstr "Navigation Bar"
+
+#: models/snippet_models.py:153
+msgid "Navigation links"
+msgstr "Liens de navigation"
+
+#: models/snippet_models.py:163 models/snippet_models.py:206
+msgid "Attributes"
+msgstr "Attributs"
+
+#: models/snippet_models.py:178
+msgid "Footer"
+msgstr "Pied de page"
+
+#: models/snippet_models.py:229
+msgid "content"
+msgstr "contenu"
+
+#: models/snippet_models.py:259
+msgid "Dismissible"
+msgstr "Révocables"
+
+#: models/snippet_models.py:263
+msgid "Show once"
+msgstr "Afficher une fois"
+
+#: models/snippet_models.py:264
+msgid ""
+"Do not show the content wall to the same user again after it has been closed."
+msgstr ""
+"Ne pas afficher le mur de contenu au même utilisateur une fois qu'il a été "
+"fermé."
+
+#: models/snippet_models.py:290
+msgid "CodeRed Email"
+msgstr "E-mail CodeRed"
+
+#: models/snippet_models.py:292
+msgid "To Addresses"
+msgstr "Vers adresses"
+
+#: models/snippet_models.py:292 models/snippet_models.py:294
+#: models/snippet_models.py:295
+msgid "Comma separated list"
+msgstr "Liste séparée par des virgules"
+
+#: models/snippet_models.py:293
+msgid "From Address"
+msgstr "De l'adresse"
+
+#: models/snippet_models.py:294
+msgid "CC"
+msgstr "CC"
+
+#: models/snippet_models.py:295
+msgid "BCC"
+msgstr "BCC"
+
+#: models/snippet_models.py:310
+msgid "Email Message"
+msgstr "Message électronique"
+
+#: models/wagtailsettings_models.py:23
+msgid "Social Media"
+msgstr "Médias sociaux"
+
+#: models/wagtailsettings_models.py:27
+msgid "Facebook"
+msgstr "Facebook"
+
+#: models/wagtailsettings_models.py:28
+msgid "Your Facebook page URL"
+msgstr "URL de votre page Facebook"
+
+#: models/wagtailsettings_models.py:32
+msgid "Twitter"
+msgstr "Twitter"
+
+#: models/wagtailsettings_models.py:33
+msgid "Your Twitter page URL"
+msgstr "URL de votre page Twitter"
+
+#: models/wagtailsettings_models.py:38
+msgid "Instagram"
+msgstr "Instagram"
+
+#: models/wagtailsettings_models.py:39
+msgid "Your Instagram username, without the @"
+msgstr "Votre nom d'utilisateur Instagram, sans le @"
+
+#: models/wagtailsettings_models.py:43
+msgid "YouTube"
+msgstr "Youtube"
+
+#: models/wagtailsettings_models.py:44
+msgid "Your YouTube channel or user account URL"
+msgstr "URL de votre chaîne YouTube ou de votre compte utilisateur"
+
+#: models/wagtailsettings_models.py:48
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: models/wagtailsettings_models.py:49
+msgid "Your LinkedIn page URL"
+msgstr "URL de votre page LinkedIn"
+
+#: models/wagtailsettings_models.py:53
+msgid "Google"
+msgstr "Google"
+
+#: models/wagtailsettings_models.py:54
+msgid "Your Google+ page or Google business listing URL"
+msgstr "Votre page Google + ou Google Business Listing URL"
+
+#: models/wagtailsettings_models.py:90
+msgid "Social Media Accounts"
+msgstr "Comptes de médias sociaux"
+
+#: models/wagtailsettings_models.py:101
+msgid "Layout"
+msgstr "Disposition"
+
+#: models/wagtailsettings_models.py:109
+msgid "Logo"
+msgstr "Logo"
+
+#: models/wagtailsettings_models.py:110
+msgid "Brand logo used in the navbar and throughout the site"
+msgstr "Logo de marque utilisé dans le NavBar et sur tout le site"
+
+#: models/wagtailsettings_models.py:118
+msgid "Favicon"
+msgstr "Favicon"
+
+#: models/wagtailsettings_models.py:125
+msgid "Navbar color scheme"
+msgstr "Jeu de couleurs de la barre de navigation"
+
+#: models/wagtailsettings_models.py:126
+msgid ""
+"Optimizes text and other navbar elements for use with light or dark "
+"backgrounds."
+msgstr ""
+"Optimise le texte et d'autres éléments de navbar pour une utilisation avec "
+"des arrière-plans clairs ou sombres."
+
+#: models/wagtailsettings_models.py:132
+msgid "Navbar CSS class"
+msgstr "Classe CSS de la barre de navigation"
+
+#: models/wagtailsettings_models.py:133
+msgid ""
+"Custom classes applied to navbar e.g. \"bg-light\", \"bg-dark\", \"bg-primary"
+"\"."
+msgstr ""
+"Classes personnalisées appliquées à navbar par exemple «bg-light», «bg-"
+"dark», «bg-primary»."
+
+#: models/wagtailsettings_models.py:137
+msgid "Fixed navbar"
+msgstr "La barre de navigation sera fixe"
+
+#: models/wagtailsettings_models.py:138
+msgid "Fixed navbar will remain at the top of the page when scrolling."
+msgstr ""
+"La barre de navigation sera fixe et restera en haut de la page lors du "
+"défilement."
+
+#: models/wagtailsettings_models.py:142
+msgid "Full width navbar"
+msgstr "Barre de navigation en pleine largeur"
+
+#: models/wagtailsettings_models.py:143
+msgid "The navbar will fill edge to edge."
+msgstr "La barre de navigation remplira bord à bord."
+
+#: models/wagtailsettings_models.py:147
+msgid "Full width navbar contents"
+msgstr "Contenu de navbar pleine largeur"
+
+#: models/wagtailsettings_models.py:148
+msgid "Content within the navbar will fill edge to edge."
+msgstr "Le contenu de la barre de navigation remplit bord à bord."
+
+#: models/wagtailsettings_models.py:155
+msgid "Collapse navbar menu"
+msgstr "Réduire le menu navbar"
+
+#: models/wagtailsettings_models.py:156
+msgid ""
+"Control on what screen sizes to show and collapse the navbar menu links."
+msgstr ""
+"Contrôlez les tailles d'écran pour afficher et réduire les liens de menu de "
+"navbar."
+
+#: models/wagtailsettings_models.py:163
+msgid "Navbar format"
+msgstr "Format de la barre de navigation"
+
+#: models/wagtailsettings_models.py:167
+msgid "Search box"
+msgstr "Boîte de recherche"
+
+#: models/wagtailsettings_models.py:168
+msgid "Show search box in navbar"
+msgstr "Afficher la zone de recherche dans navbar"
+
+#: models/wagtailsettings_models.py:175
+msgid "Theme variant"
+msgstr "Variante de thème"
+
+#: models/wagtailsettings_models.py:185
+msgid "Branding"
+msgstr "Marque"
+
+#: models/wagtailsettings_models.py:198
+msgid "Site Navbar Layout"
+msgstr "Mise en page du site navbar"
+
+#: models/wagtailsettings_models.py:204
+msgid "Theming"
+msgstr "Thématisation"
+
+#: models/wagtailsettings_models.py:215
+msgid "Tracking"
+msgstr "Suivi"
+
+#: models/wagtailsettings_models.py:220
+msgid "GA Tracking ID"
+msgstr "ID de suivi GA"
+
+#: models/wagtailsettings_models.py:221
+msgid "Your Google Analytics tracking ID (begins with \"UA-\")"
+msgstr "Votre identifiant de suivi Google Analytics (commence par «UA-»)"
+
+#: models/wagtailsettings_models.py:225
+msgid "Track button clicks"
+msgstr "Suivi des clics sur les boutons"
+
+#: models/wagtailsettings_models.py:226
+msgid ""
+"Track all button clicks using Google Analytics event tracking. Event "
+"tracking details can be specified in each button’s advanced settings options."
+msgstr ""
+"Suivez tous les clics sur les boutons à l'aide du suivi des événements "
+"Google Analytics. Les détails du suivi des événements peuvent être spécifiés "
+"dans les options de paramètres avancés de chaque bouton."
+
+#: models/wagtailsettings_models.py:235
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: models/wagtailsettings_models.py:250
+msgid "Show skip navigation link"
+msgstr "Afficher le lien ignorer la navigation"
+
+#: models/wagtailsettings_models.py:251
+msgid ""
+"Shows a \"Skip Navigation\" link above the navbar that takes you directly to "
+"the main content."
+msgstr ""
+"Affiche un lien «ignorer la navigation» au-dessus du navbar qui vous amène "
+"directement au contenu principal."
+
+#: models/wagtailsettings_models.py:259
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+#: models/wagtailsettings_models.py:284
+msgid "From email address"
+msgstr "À partir de l'adresse e-mail"
+
+#: models/wagtailsettings_models.py:285
+msgid "The default email address this site uses to send emails."
+msgstr ""
+"L'adresse e-mail par défaut que ce site utilise pour envoyer des e-mails."
+
+#: models/wagtailsettings_models.py:289
+msgid "Number of results per page"
+msgstr "Nombre de résultats par page"
+
+#: models/wagtailsettings_models.py:294
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: models/wagtailsettings_models.py:295
+msgid "Enter the contents of a robots.txt file."
+msgstr "Entrez le contenu d'un fichier robots.txt."
+
+#: models/wagtailsettings_models.py:309
+msgid "Search Settings"
+msgstr "Paramètres de recherche"
+
+#: models/wagtailsettings_models.py:315
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: models/wagtailsettings_models.py:320
+msgid "General"
+msgstr "Générales"
+
+#: models/wagtailsettings_models.py:330
+msgid "SEO"
+msgstr "SEO"
+
+#: models/wagtailsettings_models.py:334
+msgid "Use OpenGraph Markup"
+msgstr "Utiliser le balisage OpenGraph"
+
+#: models/wagtailsettings_models.py:335
+msgid ""
+"Show an optimized preview when linking to this site on Facebook, Linkedin, "
+"Twitter, and others. See http://ogp.me/."
+msgstr ""
+"Afficher un aperçu optimisé lors de la liaison à ce site sur Facebook, "
+"LinkedIn, Twitter et d'autres. Voir http://ogp.me/."
+
+#: models/wagtailsettings_models.py:339
+msgid "Use Twitter Markup"
+msgstr "Utiliser le balisage Twitter"
+
+#: models/wagtailsettings_models.py:340
+msgid ""
+"Shows content as a \"card\" when linking to this site on Twitter. See "
+"https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/"
+"abouts-cards."
+msgstr ""
+"Shows small indicators at the bottom of the carousel based on the number of "
+"slides.Shows content as a \"card\" when linking to this site on Twitter. See "
+"https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/"
+"abouts-cards."
+
+#: models/wagtailsettings_models.py:344
+msgid "Use Structured Data"
+msgstr "Utiliser des données structurées"
+
+#: models/wagtailsettings_models.py:345
+msgid ""
+"Optimizes information about your organization for search engines. See "
+"https://schema.org/."
+msgstr ""
+"Optimise les informations sur votre organisation pour les moteurs de "
+"recherche. Voir https://schema.org/."
+
+#: models/wagtailsettings_models.py:349
+msgid "Use AMP Pages"
+msgstr "Utiliser les pages AMP"
+
+#: models/wagtailsettings_models.py:350
+msgid ""
+"Generates an alternate AMP version of Article pages that are preferred by "
+"search engines. See https://www.ampproject.org/"
+msgstr ""
+"Génère une version AMP alternative des pages article qui sont préférées par "
+"les moteurs de recherche. Voir https://www.ampproject.org/"
+
+#: models/wagtailsettings_models.py:360
+msgid ""
+"If these settings are enabled, the corresponding values in each page’s SEO "
+"tab are used."
+msgstr ""
+"Si ces paramètres sont activés, les valeurs correspondantes dans l'onglet "
+"SEO de chaque page sont utilisées."
+
+#: models/wagtailsettings_models.py:362
+msgid "Search Engine Optimization"
+msgstr "Optimisation des moteurs de recherche"
+
+#: models/wagtailsettings_models.py:373
+msgid "Google API"
+msgstr "Google API"
+
+#: models/wagtailsettings_models.py:378
+msgid "Google Maps API Key"
+msgstr "Clé API Google Maps"
+
+#: models/wagtailsettings_models.py:379
+msgid "The API Key used for Google Maps."
+msgstr "La clé API utilisée pour Google Maps."
+
+#: models/wagtailsettings_models.py:389
+msgid "Mailchimp API"
+msgstr "API MailChimp"
+
+#: models/wagtailsettings_models.py:394
+msgid "Mailchimp API Key"
+msgstr "Clé API MailChimp"
+
+#: models/wagtailsettings_models.py:395
+msgid "The API Key used for Mailchimp."
+msgstr "La clé API utilisée pour MailChimp."
+
+#: views.py:226
+#, python-format
+msgid "Import failed: %(reason)s"
+msgstr "Échec de l'importation: %(reason)s"
+
+#: views.py:230
+#, python-format
+msgid "%(count)s page imported."
+msgid_plural "%(count)s pages imported."
+msgstr[0] "%(count)s page importée."
+msgstr[1] "%(count)s page importée."
