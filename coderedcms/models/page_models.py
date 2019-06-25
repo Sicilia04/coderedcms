@@ -1007,8 +1007,8 @@ class CoderedEventIndexPage(CoderedWebPage):
             for occurrence in occurrences:
                 event_data = {
                     'title': event.title,
-                    'start': occurrence[0].strftime('%Y-%m-%dT%H:%M:%S'),
-                    'end': occurrence[1].strftime('%Y-%m-%dT%H:%M:%S') if occurrence[1] else "",
+                    'start': occurrence[0].strftime('%Y-%m-%dT%H:%M:%S%z'),
+                    'end' : occurrence[1].strftime('%Y-%m-%dT%H:%M:%S%z') if occurrence[1] else "",
                     'description': "",
                 }
                 if event.url:
